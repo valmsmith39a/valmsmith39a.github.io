@@ -1,0 +1,38 @@
+html, body {
+  height:100%;
+  margin:0px;
+}
+
+.container {
+  height:100%;
+  color:white;
+}
+
+h1 {
+  position:absolute;
+  margin-left:2%;
+  font-size: 72px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#row1 {
+  background-color: black;
+  height:20%;
+}
+
+#row2 {
+  background-color: black;
+  height:100%;
+}
+
+#col1 {
+  background-color:black;
+  width:20%;
+  height:100%;
+}
+
+#col2 {
+  background-color:lightgray;
+  width:80%;
+  height:100%;
+}
