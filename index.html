@@ -42,21 +42,37 @@
             <h1>George Wee</h1>
          </div>  <!-- <div id="row1" class="row" -->
 
+         <!-- Implementing navigation tabs: Method 1: Use Bootstrap nav-tab -->
+
          <div id="row2" class="row">
+            <ul class="nav nav-pills nav-stacked col-md-3" id="verticalTabs">
+                <li class="active"><a href="#aboutTab" data-toggle="tab">About</a>
+                <li><a href="#socialMediaNProjectsTab" data-toggle="tab" >Social Media and Projects</a></li>
+            </ul>
+                <div class="tab-content col-md-9">
+                  <div class="tab-pane active" id="aboutTab">
+                     <p><br>George is a student at Coding House Institute training to become a full stack web developer. He is familiar with the following programming languages, frameworks and tools: JavaScript, HTML, CSS, jQuery, Node.js, AngularJS, ReactJS, MongoDB, Swift and Objective-C. Before Coding House, he spent about one year developing iOS mobile applications, with two apps in the Apple Store. He holds a BA in Political Science from the University of California, San Diego, an MA in Government from Johns Hopkins University and MS in Finance from Peking University Shenzhen HSBC Business School.</p>
+                  </div>
+                  <div class="tab-pane" id="socialMediaNProjectsTab">
+                     <p><br>Email: george.x.wee@gmail.com<br><br>LinkedIn: <a href="https://www.linkedin.com/in/georgewee">https://www.linkedin.com/in/georgewee</a><br><br>GitHub: <a href="https://github.com/valmsmith39a">https://github.com/valmsmith39a</a><br><br>StackExchange: <a href="http://stackexchange.com/users/7436960/valmsmith39a">http://stackexchange.com/users/7436960/valmsmith39a</a><br><br>Twitter: <a href="https://twitter.com/valmsmith39a">https://twitter.com/valmsmith39a</a><br><br>AngelList: <a href="https://angel.co/george-wee-1">https://angel.co/george-wee-1</a></p>
+                   </div>
+                </div>
+            </div>
 
-            <div id="col1" class="col-md-6">
-               <ul>
-                  <li><a id="aboutLink" href="#">About</a></li>
-                  <li><a id="projectsNSocialMediaLink" href="#">Social Media</a></li>
-              </ul>
-            </div>  <!-- col 1 -->
-
-            <div id="col2" class="col-md-6">
-               <div id="textDisplay"></div>
-            </div>  <!-- col 2 -->
-
-         </div>  <!-- <div id="row2" class="row"> -->
-
+            <!-- Implementing navigation tabs: Method 2: Use jQuery with grid-layout (rows & columns) from Bootstrap > -->
+            <!--
+            <div id="row2" class="row">
+               <div id="col1" class="col-md-3">
+                  <ul class="nav nav-pills nav-stacked" id="verticalTabs">
+                     <li><a id="aboutTab" href="#aboutTab" data-toggle="tab">About</a>
+                     <li><a id="socialMediaNProjectsTab" href="#socialMediaNProjectsTab" data-toggle="tab" >Social Media and Projects</a></li>
+                  </ul>
+               </div>
+               <div id="col2" class="col-md-9">
+                  <div id="textDisplay"></div>
+               </div>
+            </div>
+            -->
       </div>  <!-- <div class="container"> -->
 
    </body>

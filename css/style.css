@@ -10,7 +10,7 @@ html, body {
 
 h1 {
   position:absolute;
-  margin-left:2%;
+    margin-left:2%;
   font-size: 72px;
   font-family: "Times New Roman", Times, serif;
 }
@@ -34,13 +34,13 @@ h1 {
 #col2 {
   width:80%;
   height:100%;
-  background-color:lightgray;
-  color:black;
+  background-color:black;
+  color:white;
   font-size: 24px;
   font-family: "Times New Roman", Times, serif;
 }
 
-#aboutLink, #projectsNSocialMediaLink {
+#aboutTab, #socialMediaNProjectsTab {
   color:white;
   font-size: 18px;
   font-family: "Times New Roman", Times, serif;
