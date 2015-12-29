@@ -41,7 +41,7 @@ html, body {
 #col2 {
   width:80%;
   height:100%;
-  background-color:black;
+  background-color:lightgray;
   color:white;
   font-size: 24px;
   font-family: "Times New Roman", Times, serif;
@@ -49,6 +49,7 @@ html, body {
 
 #aboutTab, #socialMediaNProjectsTab {
   color:white;
+  background-color:black;
   font-size: 18px;
   font-family: "Times New Roman", Times, serif;
 }
