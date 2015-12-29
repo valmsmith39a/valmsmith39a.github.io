@@ -8,10 +8,17 @@ html, body {
   color:white;
 }
 
-h1 {
+#name {
   position:absolute;
     margin-left:2%;
   font-size: 72px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#description {
+  position:absolute;
+    margin-left:2%;
+  font-size: 28px;
   font-family: "Times New Roman", Times, serif;
 }
 
